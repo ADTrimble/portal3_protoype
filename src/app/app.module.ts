@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { LicenseComponent } from './license/license.component';
+import { LicenseListComponent } from './license-list/license-list.component';
+import { LicenseDetailsComponent } from './license-details/license-details.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LicenseComponent,
+    LicenseListComponent,
+    LicenseDetailsComponent
   ],
   imports: [
     BrowserModule,
