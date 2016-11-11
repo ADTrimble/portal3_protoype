@@ -6,12 +6,15 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { AssetPortfolioComponent } from './asset-portfolio/asset-portfolio.component';
 import { AssetDetailsComponent } from './asset-details/asset-details.component';
+import { ListComponent } from './list/list.component';
+import { FilterComponent } from './filter/filter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AssetPortfolioComponent,
-    AssetDetailsComponent
+    AssetDetailsComponent, ListComponent,
+    FilterComponent
   ],
   imports: [
     BrowserModule,
